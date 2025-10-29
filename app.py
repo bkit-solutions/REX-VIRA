@@ -145,7 +145,7 @@ st.markdown(
 
 # API config
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
-GEMINI_API_KEY = "AIzaSyBk-4WTw4txv44GCXhfY4Hbp2OEMgbsRaU"
+GEMINI_API_KEY = ""
 
 def call_gemini_api(text):
     """
