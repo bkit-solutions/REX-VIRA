@@ -35,8 +35,8 @@ You'll need Python 3.9+ installed on your system.
 ### 3. Clone the Repository
 
 ```bash
-git clone <your_repository_url>
-cd fake_news_nlp
+git clone https://github.com/bkit-solutions/REX-VIRA.git
+cd REX-VIRA
 ```
 
 ### 4. Create and Activate a Virtual Environment
@@ -48,7 +48,7 @@ It's best practice to use a virtual environment.
 python -m venv venv
 
 # Activate the environment (on Windows)
-.env\Scriptsctivate
+.venv\Scriptsctivate
 
 # Activate the environment (on macOS/Linux)
 source venv/bin/activate
@@ -119,4 +119,4 @@ GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 
 ---
 
-👩‍💻 **Developed By:** Caleb (B.Tech Final Year - Data Science Specialization)
+👩‍💻 **Developed By:** Caleb
